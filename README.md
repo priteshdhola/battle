@@ -1,9 +1,9 @@
 ## Battle of Two armies
-  Checkout the repo and run following from the command line with in the battle directory
+  Checkout the repo and run following from the command line within the battle directory
   ```
-  mvn clean install exec:java -Dexec.mainClass="armyBattle.GroundWar
+  mvn clean install exec:java -Dexec.mainClass="armyBattle.GroundWar"
   ```
-
+  
 ### Assumptions
   - Army size is fixed for both sides
   - Both armies will have similar number of units for each unit type
