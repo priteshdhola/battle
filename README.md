@@ -1,8 +1,10 @@
-# battle
-  Checkout the repo and run following from the command line
-  mvn clean install exec:java -Dexec.mainClass="armyBattle.GroundWar"
+## Battle of Two armies
+  Checkout the repo and run following from the command line with in the battle directory
+  ```
+  mvn clean install exec:java -Dexec.mainClass="armyBattle.GroundWar
+  ```
 
-  Assumptions
+### Assumptions
   - Army size is fixed for both sides
   - Both armies will have similar number of units for each unit type
   - Ranged unit(Archers) go first to battles followed by close combat unit
