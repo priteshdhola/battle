@@ -19,6 +19,7 @@ public class GroundWar {
 
     public static void main(String[] args) throws IOException,InterruptedException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("\n\n=================================================\n");
         System.out.println("This is a battle between two armies.");
         Thread.sleep(1000);
         System.out.println("First select a size for both armies.");
